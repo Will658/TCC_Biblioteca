@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Login - Portal Dos Livros</title>
+</head>
+<body>
+    <header id="menu">
+        <!-- logo do site, menu de navegação, etc.-->
+        <img id="header-image" src="img/img_463110.png" alt="Livro" />
+        <h1 id="titulo-cabecalho">Portal dos Livros</h1>
+    </header>
+    <div class="search">
+        <form action="#">
+            <button>
+                <a href="../../Tela Principal/Deslogado/home.html" class="fa fa-home" id="home" style="font-size: 14px;"></a>
+            </button>
+        </form>
+    </div>
+    <form name="Login" action="" onsubmit="loginRealizado()" id="preenchimento" accept-charset="UTF-8">
+        <h1>LOGIN</h1>
+        <h2>Insira seus dados para acessar seu perfil</h2>
+        <input type="email" maxlength="40" required placeholder="E-mail:" id="emailUsuario">
+        <br><br>
+        <input type="password" maxlength="20" required placeholder="Senha:" id="senhaUsuario">
+        <br><br>
+        <input type="submit" id="entrar" value="Logar">
+        <p>Ainda não possui um login? <a href="../Cadastro/index.html"> 
+            Cadastre-se! </a> </p>
+        <p><a href="../Redefinir/Alterar senha/index.html"> Esqueceu sua senha? </a> </p>
+        <div class="footer-bottom">
+            <div class="wrapper">
+                <p> PortalDosLivros - 2022 </p>
+            </div>
+        </div>   
+    </form>
+    <script src="./js/script.js"></script>
+</body>
+</html>

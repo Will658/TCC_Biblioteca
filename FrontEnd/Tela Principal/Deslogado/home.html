@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Home Page</title>
+</head>
+<body>
+    <header id="menu">
+        <!-- logo do site, menu de navegação, etc.-->
+        <img id="header-image" src="img/img_463110.png" alt="Livro" />
+        <h1 id="titulo-cabecalho">Portal dos Livros</h1>
+    </header>
+    <div class="search">
+        <form action="#">
+            <input type="text"
+                placeholder=" Pesquise aqui... "
+                name="search">
+            <button>
+                <i class="fa fa-search" id="pesquisar" style="font-size: 14px;"></i>
+            </button>
+            <div class="button">
+                <button>
+                    <a href="../../Telas de Login/Cadastro/index.html">Cadastre-se</a> 
+                </button>             
+                <button>
+                    <a href="../../Telas de Login/Login/index.html">Login</a>
+                </button>
+            </div>
+        </form>
+    </div>
+    <center>
+        <div class="w3-content w3-display-container" style="max-width:200px"></div>
+        <img class="mySlides" src="img/deixada para tras" style="width:100px">
+        <img class="mySlides" src="img/o pequeno principe" style="width:100px">
+        <img class="mySlides" src="img/livro olavo" style="width:100px">
+        <img class="mySlides" src="img/manual do imperio" style="width:100px">
+        <!--Button Transparente-->
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+    </center>
+    <script src="./js/script.js"></script>
+    <br></br>
+    <!--Primeiro Card-->
+    <main class="cards">
+        <section class="card">
+            <div class="icon"></div> 
+            <img src="img/ncen.jpg">
+            <a href="../../Tela Do Item/item.html">Não Confie em Ninguém</a>
+        </section>
+        <!--Segundo Card-->
+        <section class="card">
+            <div class="icon"></div> 
+            <img src="img/o pequeno principe.jpg">
+            <h3>O Pequeno Príncipe</h3>
+        </section>
+        <!--Terceiro Card-->
+        <section class="card">
+            <div class="icon"></div> 
+            <img src="img/jardim das aflicoes.jpg">
+            <h3>O Jardim das Aflições</h3>
+        </section>
+        <!--Quarto Card-->
+        <section class="card">
+            <div class="icon"></div> 
+            <img src="img/manual do imperio.jpg">
+            <h3>Manual Do Império</h3>
+        </section>
+    </main>
+    <footer>
+        <div class="wrapper">
+            <div class="footer-box">
+                <div class="company-flutter">
+                    <h2>Portal dos Livros</h2>
+                    <p>Teleporte-se par um mundo inovador de histórias!</p>
+                </div>
+            </div>
+            <div class="footer-box">
+                <h2>Nos siga nas redes sociais!</h2>
+                <ul class="footer-list">
+                    <li>
+                        <a href="#">
+                        <i class="fa fa-facebook-square"></i>
+                        <span>Facebook</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                        <i class="fa fa-instagram"></i>
+                        <span>Instagram</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="wrapper">
+                <p> PortalDosLivros - 2022 </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
