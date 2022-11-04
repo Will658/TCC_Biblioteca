@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livro - Portal dos Livros</title>
+</head>
+<body>
+    <header id="menu">
+        <!-- logo do site, menu de navegação, etc.-->
+        <img id="header-image" src="img/img_463110.png" alt="Livro" />
+        <h1 id="titulo-cabecalho">Portal dos Livros</h1>
+    </header>
+    <div class="search">
+        <form action="#">
+            <input type="text"
+                placeholder=" Pesquise aqui... "
+                name="search">
+            <button>
+                <i class="fa fa-search" id="pesquisar" style="font-size: 14px;"></i>
+            </button>
+            <div class="button">
+                <button>
+                    <a href="../Tela Principal/Deslogado/home.html" class="fa fa-home" id="home" style="font-size: 14px;"></a>
+                </button>
+                <button>
+                    <a href="../Meus pedidos/ped.html" class="fa fa-shopping-cart" id="sc"> </a>
+                </button>
+                <button>
+                    <a href="../informacoesDaConta/conf.html" class="fa fa-user" id="user" style="font-size: 14px;"></a>
+                </button>
+            </div>
+        </form>
+    </div>
+    <div class="item">
+        <div>
+            <img id="imagem_livro" src="img/vini.jpg">
+        </div>
+        <div id="informação">
+           <u style="font-size: 14px;"> Antologia Poética </u> 
+           <p>Vinicius de Moraes</p>
+            <button>
+                <a id="alugar"> Alugar </a>
+            </button>
+            <button>
+                <a href="../Meus pedidos/ped.html" class="fa fa-shopping-cart" id="addcarrinho"> Adicionar aos Meus Pedidos </a>
+            </button>
+            <button>
+                <i class="fa fa-heart-o" id="Favoritar"> <a style="color: black;" href="../Favoritos/fav.html"> Favoritar </a></i>
+            </button>
+        </div>
+        <div id="Descrição">
+            <u style="font-size: 14px;"> Sinópse </u> 
+            <p>Uma antologia poética refere-se no apanhado de poemas (ou poesias) diversas reunidas em um livro. 
+                Estes são normalmente selecionados pelo próprio autor, seguindo um critério arbitrário e individual. 
+                Uma antologia poética, no entanto, também pode apresentar uma coletânea de autores, 
+                não só de poesias de um mesmo.</p>
+         </div>
+    </div>
+    <footer>
+        <div class="wrapper">
+            <div class="footer-box">
+                <div class="company-flutter">
+                    <h2>Portal dos Livros</h2>
+                    <p>Teleporte-se par um mundo inovador de histórias!</p>
+                </div>
+            </div>
+            
+            <div class="footer-box">
+                <h2>Nos siga nas redes sociais!</h2>
+                <ul class="footer-list">
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-facebook-square"></i>
+                            <span>Facebook</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="wrapper">
+                <p> PortalDosLivros - 2022 </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
