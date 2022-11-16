@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!--Bootstrap-->
-    <link rel="stylesheet" href="css/bootstrap.min.css.map">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Home Page</title>
 </head>
 <body>
     <header id="menu">
@@ -18,101 +17,62 @@
     </header>
     <div class="search">
         <form action="#">
-            <input type="text" placeholder=" Pesquise aqui... " name="search">
+            <input type="text"
+                placeholder=" Pesquise aqui... "
+                name="search">
             <button>
                 <i class="fa fa-search" id="pesquisar" style="font-size: 14px;"></i>
             </button>
             <div class="button">
                 <button>
-                    <a href="../../Telas de Login/Cadastro/index.html">Cadastre-se</a> 
-                </button>             
+                    <a href="../../Meus pedidos/ped.html" class="fa fa-shopping-cart" id="sc"> </a>
+                </button>
                 <button>
-                    <a href="../../Telas de Login/Login/index.html">Login</a>
+                    <a href="../../informacoesDaConta/conf.html" class="fa fa-user" id="user" style="font-size: 14px;"></a>
                 </button>
             </div>
         </form>
     </div>
-    <br>
-    <div class="dropdown">
-        <button class="dropbtn">Categorias</button>
-        <div class="dropdown-content">
-            <a href="#">Suspense</a>
-            <a href="#">Dicionário</a>
-            <a href="#">Conto</a>
-            <a href="#">Crônicas</a>
-            <a href="#">Romance</a>
-            <a href="#">Teatro</a>
-            <a href="#">Infantil</a>
-            <a href="#">Gibi</a>
-            <a href="#">Fantasia</a>
-            <a href="#">Ficção</a>
-            <a href="#">Humor</a>
-            <a href="#">Ficção Científica</a>
-            <a href="#">Ação e Aventura</a>
-            <a href="#">Aventura</a>
-            <a href="#">Literário</a>
-            <a href="#">Folclore</a>
-            <a href="#">Antologias</a>
-            <a href="#">Comédia</a>
-            <a href="#">Mistérios</a>
-            <a href="#">Peças e Roteiros</a>
-            <a href="#">Poesia</a>
-            <a href="#">Agricultura</a>
-            <a href="#">Biografias</a>
-            <a href="#">Gestão de Negócios</a>
-            <a href="#">Guias de carreira</a>
-            <a href="#">Computadors e Internet</a>
-            <a href="#">Culinária</a>
-            <a href="#">Educação</a>
-            <a href="#">Bem-estar</a>
-            <a href="#">Humanidade</a>
-            <a href="#">Natureza</a>
-            <a href="#">Fotografia</a>
-            <a href="#">Religião</a>
-        </div>
-    </div>
-    <br>
-    <br>
-    <div class="container">
-        <div class="item" >
-            <div class="card-body"> 
-                <img src="img/capa uma dobra no tempo.jpg" alt="o pequeno principe" >  
-                <div class="bordaA" id="dt">
-                    <a href="#"><p>Uma Dobra no Tempo</p></a>
-                </div>
-            </div>
-            <div class="card-body">
-                <img src="img/diario de banana 2.jpg" alt="manual do imperio">
-                <div class="bordaA">
-                    <a href=""><p>Diário de um Banana - Rodrick é o Cara</p></a>
-                </div>
-            </div>
-            <div class="card-body">
-                <img src="img/Dom-Quixote.png" alt="jardins das afliçoes">
-                <div class="bordaA" id="dq">
-                    <a href="#"><p> Dom Quixote</p></a>
-                </div>
-            </div>
-            <div class="card-body">
-                <img src="img/dub1.jpg" alt="nao confie em ninguem">
-                <div class="bordaA">
-                    <a href="#"><p>Diário de um Banana - Casa dos Horrores</p></a>
-                </div>
-            </div>
-            <div class="card-body" id="vm">
-                <img src="img/vinicius de moraes.jpg" alt="diario">
-                <div class="bordaA">
-                    <a href="#"><p>Antologia Poética</p></a>
-                </div>
-            </div>
-            <div class="card-body" id="it">
-                <img src="img/it.jpg" alt="it a coisa">
-                <div class="bordaA">
-                    <a href="#"><p> It, a Coisa</p></a>
-                </div>
-            </div>
-        </div>
-    </div>          
+    <center>
+        <div class="w3-content w3-display-container" style="max-width:200px"></div>
+        <img class="mySlides" src="img/deixada para tras" style="width:100px">
+        <img class="mySlides" src="img/o pequeno principe" style="width:100px">
+        <img class="mySlides" src="img/livro olavo" style="width:100px">
+        <img class="mySlides" src="img/manual do imperio" style="width:100px">
+        <!--Button Transparente-->
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+    </center>
+    <script src="./js/script.js"></script>
+    <br></br>
+    <!--Primeiro Card-->
+    <main class="cards">
+        <section class="card">
+            <div class="icon"></div> 
+            <img src="img/ncen.jpg">
+            <a href="../../Tela Do Item/item.html">Não Confie em Ninguém</a>
+        </section>
+        <!--Segundo Card-->
+        <section class="card">
+            <div class="icon"></div> 
+            <img src="img/o pequeno principe.jpg">
+            <h3>O Pequeno Príncipe</h3>
+        </section>
+        <!--Terceiro Card-->
+        <section class="card">
+            <div class="icon"></div> 
+            <img src="img/jardim das aflicoes.jpg">
+            <h3>O Jardim das Aflições</h3>
+        </section>
+        <!--Quarto Card-->
+        <section class="card">
+            <div class="icon"></div> 
+            <img src="img/manual do imperio.jpg">
+            <h3>Manual Do Império</h3>
+        </section>
+    </main>
     <footer>
         <div class="wrapper">
             <div class="footer-box">
@@ -126,14 +86,14 @@
                 <ul class="footer-list">
                     <li>
                         <a href="#">
-                            <i class="fa fa-facebook-square"></i>
-                            <span>Facebook</span>
+                        <i class="fa fa-facebook-square"></i>
+                        <span>Facebook</span>
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <i class="fa fa-instagram"></i>
-                            <span>Instagram</span>
+                        <i class="fa fa-instagram"></i>
+                        <span>Instagram</span>
                         </a>
                     </li>
                 </ul>
@@ -145,10 +105,5 @@
             </div>
         </div>
     </footer>
-    <!--Bootstrap-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"></script> 
-
 </body>
 </html>
