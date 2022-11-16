@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="Chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header id="menu">
+        <!-- logo do site, menu de navegação, etc.-->
+        <h1 id="titulo-cabecalho">Portal dos Livros - Administração</h1>
+    </header>
+    <div class="sla">
+        <div class="container">
+            <div class="teste1">
+                <p>willtoledo658@gmail.com</p>
+                <button>
+                    <a href="/FrontEnd/Telas de Login/Login/index.html" class="fa fa-sign-out" id="sair"></a>
+                </button>
+            </div>
+            <div class="teste2">
+                <button id="br" class=blz><h5>Gerenciamento de Locação</h5></button >
+            </div>
+            <div class="teste2">
+                <button  id="bb" class="blz" onclick="receberDadosUsuario()"><h5>Gerenciamento de Usuários</h5></button >
+            </div>
+            <div class="teste2">
+                <button  id="bc"class="blz" onclick="receberDadosUsuario1()"><h5>Gerenciamento de Livros</h5></button >
+            </div>
+            <div class="teste2">
+                <button  id="bf"class="blz" onclick="receberDadosUsuario2()"><h5>Gerenciamento de Administradores</h5></button>
+            </div>
+        </div>
+        <div class="alinhar">
+            <div class="search">
+                <form action="#">
+                    <input type="text" placeholder="Pesquise" name="search">
+                    <button>
+                        <i class="fa fa-search" id="pesquisar" style="font-size: 14px;"></i>
+                    </button>
+                    <select>
+                        <option >ID</option>
+                        <option >Usuário</option>
+                        <option>Livro</option>
+                        <option>Data De Locação</option>
+                        <option>Data De Entrega</option>
+                        
+                    </select>
+                </form>
+            </div>
+            <div id="container10" class="container10">
+            <table class="exe1">
+                <tr>
+                    <th class="tabela5">ID</th>
+                    <th colspan="2" class="tabela5">Alunos</th>
+                    <th class="tabela5">Isnstituição</th>
+                    <th class="tabela5">Horário</th>
+                    <th class="tabela5">Curso</th>
+                </tr>
+            </table>
+            </div>
+            <div id="container11" class="container11">
+                <table class="exe1">
+                    <thead>
+                        <tr>
+                            <th class="tabela5">idUsuario</th>
+                            <th class="tabela5">nomeUsuario</th>
+                            <th class="tabela5">emailUsuario</th>
+                            <th class="tabela5">senhaUsuario</th>
+                            <th class="tabela5">idInst</th>
+                            <th class="tabela5">idCurso</th>
+                            <th class="tabela5">idHorario</th>
+                        </tr>
+                    </thead>
+                    <tbody id="corpo-tabela">
+
+                    </tbody>
+                </table>
+            </div>
+            <div id="container12" class="container12">
+                <table class="exe1">
+                    <thead>
+                        <tr>
+                            <th class="tabela5">idLivro</th>
+                            <th class="tabela5">tituloLivro</th>
+                            <th class="tabela5">dataPublicacao</th>
+                            <th class="tabela5">qtdLivro</th>
+                            <th class="tabela5">idEditora</th>
+                            <th class="tabela5">idGenero</th>
+                            <th class="tabela5">idAutor</th>
+                        </tr>
+                        </thead>
+                        <tbody id="corpo-tabela1">
+
+                        </tbody>
+                    </table>
+                    </div>
+                    <div id="container13" class="container13">
+                        <table class="exe1">
+                        <thead>    
+                            <tr>
+                                <th class="tabela5">idAdm</th>
+                                <th class="tabela5">nomeAdm</th>
+                                <th class="tabela5">emailAdm</th>
+                                <th class="tabela5">telaAdm</th>
+                                <th class="tabela5">idInst</th>
+                            </tr>
+                        </thead>
+                        <tbody id="corpo-tabela2">
+
+                        </tbody>
+                        </div>
+    </div>
+</div>
+<script src="./script.js" ></script>
+</body>
+</html>
