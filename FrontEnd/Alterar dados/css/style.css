@@ -1,20 +1,18 @@
-.Dados {
+@media screen and (max-width: 850px) and (min-width:310px) and (max-height: 1700px) and
+(min-height: 630px){
+    
+.Dados {                                                                                         
     background-color: #E3D8D8;
-    padding-top: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 10px;
-    margin-top: 10px;
-    margin-right: 50px;
-    margin-left: 50px;
-    margin-bottom: 20px;
+    padding: 5%;
+    margin: 7%;
     border-radius: 20px;
     color:black;
-    border: 1px solid black;  
+    border: 1px solid black; 
 }
 
 .Dados input{
     width: 100%;
+    border-radius: 10px;
 }
 
 .Dados h2{
@@ -25,9 +23,8 @@
 body{
     background-color: whitesmoke;
     overflow-y:auto;
-    min-width: 315px;
-    max-width: 430px;
-    min-height: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 *{
@@ -47,7 +44,7 @@ body{
 
 /*configura o header da página*/
 header{
-    background-color: #844646; /*cor do cabeçalho*/
+    background-color: #b85555; /*cor do cabeçalho*/
     overflow: hidden; /*faz com que o cabeçalho preencha todo o espaço*/
     height: 40px;
     border-bottom: 2px solid black;
@@ -69,7 +66,6 @@ header{
     background-color: #a69b9b;
     color: #f2f2f2;
     padding: 4px 10px;
-   
     margin-left: 8px;
     font-size: 12px;
     border: none;
@@ -82,10 +78,13 @@ header{
     border: none;
     background-color: #844646;
     border-radius:25px;
-    margin-left: 70%;
     color: #f2f2f2;
     padding: 4px 10px;
     font-size: 12px;
+}
+
+#AlterarB{
+    float: right;
 }
 
 /*footer*/
@@ -95,10 +94,15 @@ footer {
     padding-top: 5px;
     padding-bottom: 10px;
     border-top: 5px solid #844646;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
+
 footer h2, footer p, footer a, footer span{
     color: black;
-}
+} 
 
 footer h2{
     font-weight: 400;
@@ -208,4 +212,229 @@ span {
 a {
     text-decoration: none;
     color: whitesmoke;
+}
+
+}
+
+/*8888888888888888888888888888888*/
+
+@media screen and (min-width:850px) and (min-height: 630px){
+    
+.Dados {
+    background-color: #E3D8D8;
+    padding: 2%;
+    margin: 2%;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 20px;
+    color:black;
+    border: 1px solid black; 
+}
+
+.Dados input{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Dados h2{
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+body{
+    background-color: whitesmoke;
+    overflow-y:auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#header-image{
+    height: 36px; /*ajusta o tamanho da direita*/
+    width: 70px;
+    float: right; /*coloca a imagem á direita do cabeçalho*/
+    padding-top: 3px;
+    padding-right: 40px;
+    padding-bottom: 3px;
+}
+
+/*configura o header da página*/
+header{
+    background-color: #b85555; /*cor do cabeçalho*/
+    overflow: hidden; /*faz com que o cabeçalho preencha todo o espaço*/
+    height: 40px;
+    border-bottom: 2px solid black;
+}
+
+#titulo-cabecalho {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 4px;
+}
+    
+.search{
+    margin-top: 10px;
+    height: 40px;
+    /*border: 1px solid black;*/
+}
+      
+.search button{
+    background-color: #a69b9b;
+    color: #f2f2f2;
+    padding: 4px 10px;
+    height: 35px;
+    width: 100px;
+    margin-left: 8px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius:25px;
+} 
+
+
+.Dados button {
+    border: none;
+    background-color: #844646;
+    border-radius:25px;
+    color: #f2f2f2;
+    padding: 4px 10px;
+    font-size: 12px;
+}
+
+#AlterarB{
+    float: right;
+}
+
+/*footer*/
+
+footer {
+    background-color: #cdcdc1;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-top: 5px solid #844646;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+footer h2, footer p, footer a, footer span{
+    color: black;
+} 
+
+footer h2{
+    font-weight: 400;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer ul{
+    padding: 0;
+}
+
+footer li{
+    list-style: none;
+}
+
+.footer-box{
+    width: 31%;
+    padding: 1%;
+    float: left;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+footer .wrapper::after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.company-flutter {
+    width: 80%;
+}
+
+
+.company-flutter h2, .company-flutter p {
+    margin-bottom: 20px;
+}
+
+.footer-list li{
+    margin-bottom: 15px;
+    margin-top: 4px;
+}
+
+.footer-list i{
+    margin-top: 15px;
+}
+
+.footer-list a {
+    transition: .5s;
+}
+
+.footer-list a:hover {
+    color: #0074D9;
+}
+
+.footer-list li::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.articles-footer {
+    width: 80%;
+}
+
+.articles-footer p {
+   margin-top: 20px;
+}
+
+.footer-list.footer-article-list span {
+    display: block;
+    float: none;
+}
+
+.fa-facebook-square, .fa-instagram {
+    font-size: 30px;
+    margin-right: 10px;
+    float: left;
+}
+
+.footer-list li span {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #b2b2b2;
+}
+
+.footer-bottom p {
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+span {
+    margin-top: 10px;
+}
+
+#ins{
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
 }
