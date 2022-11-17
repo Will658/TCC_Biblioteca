@@ -1,395 +1,401 @@
 @media screen and (max-width: 500px) and (min-width: 315px){
 
-body{
-    background-color: whitesmoke;
-    overflow-y:auto;
-    min-width: 315px;
-    max-width: 500px;
-    min-height: auto;
-}
-
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-}
-
-#header-image{
-    height: 36px; /*ajusta o tamanho da direita*/
-    width: 70px;
-    float: right; /*coloca a imagem á direita do cabeçalho*/
-    margin: 1px;
-    padding-top: 3px;
-    padding-right: 40px;
-    padding-bottom: 3px;
-}
-
-/*configura o header da página*/
-header{
-    background-color:#b85555; /*cor do cabeçalho*/
-    overflow: hidden; /*faz com que o cabeçalho preencha todo o espaço*/
-    height: 43px;
-    border-bottom: 2px solid black;
-}
-
-#titulo-cabecalho {
-    color: black;
-    text-align: center;
-    font-size: 25px;
-    margin: 4px;
-    font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.search{
-    margin-top: 10px;
-    /*border: 1px solid black;*/
-}
-      
-.search button{
-    background-color: #a69b9b;
-    color: #f2f2f2;
-    padding: 4px 10px;
-    margin-left: 14px;
-    font-size: 12px;
-    border: none;
-    cursor: pointer;
-    border-radius:25px;
-} 
-
-/*footer*/
-
-footer {
-    background-color: #cdcdc1;
-    padding-top: 5px;
-    padding-bottom: 10px;
-    border-top: 5px solid #b85555;
-    font-family: 'Times New Roman', Times, serif;
-}
-footer h2, footer p, footer a, footer span{
-    color: black;
-}
-
-footer h2{
-    font-weight: 400;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-footer a {
-    text-decoration: none;
-}
-
-footer ul{
-    padding: 0;
-}
-
-footer li{
-    list-style: none;
-}
-
-.footer-box{
-    width: 31%;
-    padding: 1%;
-    float: left;
-    margin-top: 10px;
-    margin-right: 50px;
-}
-
-.footer-box h2{
-    font-size: 22px;
-}
-
-footer .wrapper::after{
-    clear: both;
-    content: "";
-    display: block;
-}
-
-.company-flutter {
-    width: 80%;
-}
-
-.company-flutter h2 {
-    margin-top: 10px;
-    font-size: 22px;
-}
-
-.company-flutter h2, .company-flutter p {
-    margin-bottom: 20px;
-}
-
-.footer-list li{
-    margin-bottom: 15px;
-    margin-top: 4px;
-}
-
-.footer-list a {
-    transition: .5s;
-}
-
-.footer-list i {
-    margin-top: 6px;
-}
-
-.footer-list a:hover {
-    color: #0074D9;
-}
-
-.footer-list li::after {
-    clear: both;
-    content: "";
-    display: block;
-}
-
-.articles-footer {
-    width: 80%;
-}
-
-.articles-footer p {
-margin-top: 20px;
-}
-
-.footer-list.footer-article-list span {
-    display: block;
-    float: none;
-}
-
-.fa-facebook-square, .fa-instagram {
-    font-size: 30px;
-    margin-right: 10px;
-    float: left;
-}
-
-.footer-list li span {
-    float: left;
-    height: 30px;
-    line-height: 30px;
-}
-
-.footer-bottom {
-    border-top: 1px solid #b2b2b2;
-}
-
-.footer-bottom p {
-    font-weight: 600;
+    body{
+        background-color: whitesmoke;
+        overflow-y:auto;
+        min-width: 315px;
+        max-width: 500px;
+        min-height: auto;
+    }
+    
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    
+    #header-image{
+        height: 36px; /*ajusta o tamanho da direita*/
+        width: 70px;
+        float: right; /*coloca a imagem á direita do cabeçalho*/
+        margin: 1px;
+        padding-top: 3px;
+        padding-right: 40px;
+        padding-bottom: 3px;
+    }
+    
+    /*configura o header da página*/
+    header{
+        background-color:#b85555; /*cor do cabeçalho*/
+        overflow: hidden; /*faz com que o cabeçalho preencha todo o espaço*/
+        height: 43px;
+        border-bottom: 2px solid black;
+    }
+    
+    #titulo-cabecalho {
+        color: black;
+        text-align: center;
+        font-size: 25px;
+        margin: 4px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .search{
+        margin-top: 10px;
+        /*border: 1px solid black;*/
+    }
+          
+    .search button{
+        background-color: #a69b9b;
+        color: #f2f2f2;
+        padding: 4px 10px;
+        margin-left: 14px;
+        font-size: 12px;
+        border: none;
+        cursor: pointer;
+        border-radius:25px;
+    } 
+    
+    /*footer*/
+    
+    footer {
+        background-color: #cdcdc1;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        border-top: 5px solid #b85555;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    footer h2, footer p, footer a, footer span{
+        color: black;
+    }
+    
+    footer h2{
+        font-weight: 400;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    footer a {
+        text-decoration: none;
+    }
+    
+    footer ul{
+        padding: 0;
+    }
+    
+    footer li{
+        list-style: none;
+    }
+    
+    .footer-box{
+        width: 31%;
+        padding: 1%;
+        float: left;
+        margin-top: 10px;
+        margin-right: 50px;
+    }
+    
+    .footer-box h2{
+        font-size: 22px;
+    }
+    
+    footer .wrapper::after{
+        clear: both;
+        content: "";
+        display: block;
+    }
+    
+    .company-flutter {
+        width: 80%;
+    }
+    
+    .company-flutter h2 {
+        margin-top: 10px;
+        font-size: 22px;
+    }
+    
+    .company-flutter h2, .company-flutter p {
+        margin-bottom: 20px;
+    }
+    
+    .footer-list li{
+        margin-bottom: 15px;
+        margin-top: 4px;
+    }
+    
+    .footer-list a {
+        transition: .5s;
+    }
+    
+    .footer-list i {
+        margin-top: 6px;
+    }
+    
+    .footer-list a:hover {
+        color: #0074D9;
+    }
+    
+    .footer-list li::after {
+        clear: both;
+        content: "";
+        display: block;
+    }
+    
+    .articles-footer {
+        width: 80%;
+    }
+    
+    .articles-footer p {
     margin-top: 20px;
-    margin-left: 10px;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.itens{
-    padding: 15px;
-    margin: 20px;
-    background-color:#DEC1C1;
-    border: 1px solid black;
-    border-radius: 15px;
-}
-
-.itens a{
-    text-decoration: none;
-    font-weight: bold;
-}
-
-}
-/*começa de novo*/
-body{
-    background-color: whitesmoke;
-    overflow-y:auto;
-}
-
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-}
-
-#header-image{
-    height: 36px; /*ajusta o tamanho da direita*/
-    width: 70px;
-    float: right; /*coloca a imagem á direita do cabeçalho*/
-    margin: 1px;
-    padding-top: 3px;
-    padding-right: 40px;
-    padding-bottom: 3px;
-}
-
-/*configura o header da página*/
-header{
-    background-color:#b85555; /*cor do cabeçalho*/
-    overflow: hidden; /*faz com que o cabeçalho preencha todo o espaço*/
-    height: 43px;
-    border-bottom: 2px solid black;
-}
-
-#titulo-cabecalho {
-    color: black;
-    text-align: center;
-    font-size: 25px;
-    margin: 4px;
-    font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.search{
-    margin-top: 10px;
-    /*border: 1px solid black;*/
-}
-      
-.search button{
-    background-color: #a69b9b;
-    color: #f2f2f2;
-    padding: 4px 10px;
-    margin-left: 14px;
-    font-size: 12px;
-    border: none;
-    cursor: pointer;
-    border-radius:25px;
-} 
-
-/*footer*/
-
-footer {
-    background-color: #cdcdc1;
-    padding-top: 50px;
-    padding-bottom: 10px;
-    border-top: 5px solid #b85555;
-    font-family: 'Times New Roman', Times, serif;
-}
-footer h2, footer p, footer a, footer span{
-    color: black;
-}
-
-footer h2{
-    font-weight: 400;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-footer a {
-    text-decoration: none;
-}
-
-footer ul{
-    padding: 0;
-}
-
-footer li{
-    list-style: none;
-}
-
-.footer-box{
-    width: 31%;
-    padding: 1%;
-    float: right;
-    margin-top: 10px;
-    margin-right: 50px;
-    background-color: #cdcdc1;
-}
-
-.footer-box h2{
-    font-size: 22px;
-}
-
-.wrapper{
-    padding-right: 100px;
-
-}
-
-footer .wrapper::after{
-    clear: both;
-    content: "";
-    display: block;
-}
-
-.company-flutter {
-    width: 80%;
-}
-
-.company-flutter h2 {
-    margin-top: 10px;
-    font-size: 22px;
-}
-
-.company-flutter h2, .company-flutter p {
-    margin-bottom: 20px;
-}
-
-.footer-list li{
-    margin-bottom: 15px;
-    margin-top: 4px;
-}
-
-.footer-list a {
-    transition: .5s;
-}
-
-.footer-list i {
-    margin-top: 6px;
-}
-
-.footer-list a:hover {
-    color: #0074D9;
-}
-
-.footer-list li::after {
-    clear: both;
-    content: "";
-    display: block;
-}
-
-.articles-footer {
-    width: 80%;
-}
-
-.articles-footer p {
-margin-top: 20px;
-}
-
-.footer-list.footer-article-list span {
-    display: block;
-    float: none;
-}
-
-.fa-facebook-square, .fa-instagram {
-    font-size: 30px;
-    margin-right: 10px;
-    float: left;
-}
-
-.footer-list li span {
-    float: left;
-    height: 30px;
-    line-height: 30px;
-}
-
-.footer-bottom {
-    border-top: 1px solid #b2b2b2;
-}
-
-.footer-bottom p {
-    font-weight: 600;
+    }
+    
+    .footer-list.footer-article-list span {
+        display: block;
+        float: none;
+    }
+    
+    .fa-facebook-square, .fa-instagram {
+        font-size: 30px;
+        margin-right: 10px;
+        float: left;
+    }
+    
+    .footer-list li span {
+        float: left;
+        height: 30px;
+        line-height: 30px;
+    }
+    
+    .footer-bottom {
+        border-top: 1px solid #b2b2b2;
+    }
+    
+    .footer-bottom p {
+        font-weight: 600;
+        margin-top: 20px;
+        margin-left: 10px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .itens{
+        padding: 15px;
+        margin: 20px;
+        background-color:#DEC1C1;
+        border: 1px solid black;
+        border-radius: 15px;
+    }
+    
+    .itens a{
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    }
+    /*começa de novo*/
+    body{
+        background-color: whitesmoke;
+        overflow-y:auto;
+    }
+    
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    
+    #header-image{
+        height: 36px; /*ajusta o tamanho da direita*/
+        width: 70px;
+        float: right; /*coloca a imagem á direita do cabeçalho*/
+        margin: 1px;
+        padding-top: 3px;
+        padding-right: 40px;
+        padding-bottom: 3px;
+    }
+    
+    /*configura o header da página*/
+    header{
+        background-color:#b85555; /*cor do cabeçalho*/
+        overflow: hidden; /*faz com que o cabeçalho preencha todo o espaço*/
+        height: 43px;
+        border-bottom: 2px solid black;
+    }
+    
+    #titulo-cabecalho {
+        color: black;
+        text-align: center;
+        font-size: 25px;
+        margin: 4px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .search{
+        margin-top: 10px;
+        /*border: 1px solid black;*/
+    }
+          
+    .search button{
+        background-color: #a69b9b;
+        color: #f2f2f2;
+        padding: 4px 10px;
+        margin-left: 14px;
+        font-size: 12px;
+        border: none;
+        cursor: pointer;
+        border-radius:25px;
+    } 
+    
+    /*footer*/
+    
+    footer {
+        background-color: #cdcdc1;
+        padding-top: 50px;
+        padding-bottom: 10px;
+        border-top: 5px solid #b85555;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    footer h2, footer p, footer a, footer span{
+        color: black;
+    }
+    
+    footer h2{
+        font-weight: 400;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    footer a {
+        text-decoration: none;
+    }
+    
+    footer ul{
+        padding: 0;
+    }
+    
+    footer li{
+        list-style: none;
+    }
+    
+    .footer-box{
+        width: 31%;
+        padding: 1%;
+        float: right;
+        margin-top: 10px;
+        margin-right: 50px;
+        background-color: #cdcdc1;
+    }
+    
+    .footer-box h2{
+        font-size: 22px;
+    }
+    
+    .wrapper{
+        padding-right: 100px;
+    
+    }
+    
+    footer .wrapper::after{
+        clear: both;
+        content: "";
+        display: block;
+    }
+    
+    .company-flutter {
+        width: 80%;
+    }
+    
+    .company-flutter h2 {
+        margin-top: 10px;
+        font-size: 22px;
+    }
+    
+    .company-flutter h2, .company-flutter p {
+        margin-bottom: 20px;
+    }
+    
+    .footer-list li{
+        margin-bottom: 15px;
+        margin-top: 4px;
+    }
+    
+    .footer-list a {
+        transition: .5s;
+    }
+    
+    .footer-list i {
+        margin-top: 6px;
+    }
+    
+    .footer-list a:hover {
+        color: #0074D9;
+    }
+    
+    .footer-list li::after {
+        clear: both;
+        content: "";
+        display: block;
+    }
+    
+    .articles-footer {
+        width: 80%;
+    }
+    
+    .articles-footer p {
     margin-top: 20px;
-    margin-left: 10px;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.itens{
-    padding: 10px;
-    margin-left: 300px;
-    margin-right: 300px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background-color:#DEC1C1;
-    border: 1px solid black;
-    border-radius: 15px;
-}
-
-.itens a{
-    text-decoration: none;
-    font-weight: bold;
-}
-
-#is{
-    height: 550px;
-    padding: 30px;
-    margin-top: 10px;
-}
+    }
+    
+    .footer-list.footer-article-list span {
+        display: block;
+        float: none;
+    }
+    
+    .fa-facebook-square, .fa-instagram {
+        font-size: 30px;
+        margin-right: 10px;
+        float: left;
+    }
+    
+    .footer-list li span {
+        float: left;
+        height: 30px;
+        line-height: 30px;
+    }
+    
+    .footer-bottom {
+        border-top: 1px solid #b2b2b2;
+    }
+    
+    .footer-bottom p {
+        font-weight: 600;
+        margin-top: 20px;
+        margin-left: 10px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .itens{
+        padding: 10px;
+        margin-left: 300px;
+        margin-right: 300px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color:#DEC1C1;
+        border: 1px solid black;
+        border-radius: 15px;
+    }
+    
+    .itens a{
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    #is{
+        height: 550px;
+        padding: 30px;
+        margin-top: 10px;
+    }
