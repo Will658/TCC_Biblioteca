@@ -174,11 +174,14 @@ a {
 
  /*Rodapé;footer*/
 
-footer {
+ footer {
     background-color: #cdcdc1;
-    padding-top: 5px;
     padding-bottom: 10px;
     border-top: 5px solid #844646;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 footer h2, footer p, footer a, footer span{
     color: black;
@@ -186,6 +189,7 @@ footer h2, footer p, footer a, footer span{
 
 footer h2{
     font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 footer a {
@@ -204,8 +208,13 @@ footer li{
     width: 31%;
     padding: 1%;
     float: left;
-    margin-top: 10px;
+    
     margin-right: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer-box h2{
+    font-size: 22px;
 }
 
 footer .wrapper::after{
@@ -218,14 +227,9 @@ footer .wrapper::after{
     width: 80%;
 }
 
-
-.company-flutter h2, .company-flutter p {
-    margin-bottom: 20px;
-}
-
-.footer-list li{
-    margin-bottom: 15px;
-    margin-top: 4px;
+.company-flutter h2 {
+    margin-top: 10px;
+    font-size: 22px;
 }
 
 .footer-list i{
@@ -246,21 +250,13 @@ footer .wrapper::after{
     display: block;
 }
 
-.articles-footer {
-    width: 80%;
-}
-
-.articles-footer p {
-   margin-top: 20px;
-}
-
 .footer-list.footer-article-list span {
     display: block;
     float: none;
 }
 
 .fa-facebook-square, .fa-instagram {
-    font-size: 30px;
+    font-size: 20px;
     margin-right: 10px;
     float: left;
 }
@@ -279,6 +275,7 @@ footer .wrapper::after{
     font-weight: 600;
     margin-top: 20px;
     margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #header {
