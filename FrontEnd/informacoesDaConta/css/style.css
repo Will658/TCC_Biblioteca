@@ -60,7 +60,6 @@ header{
 
 footer {
     background-color: #cdcdc1;
-    padding-top: 5px;
     padding-bottom: 10px;
     border-top: 5px solid #844646;
     width: 100%;
@@ -93,8 +92,9 @@ footer li{
     width: 31%;
     padding: 1%;
     float: left;
-    margin-top: 10px;
+    
     margin-right: 50px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .footer-box h2{
@@ -116,21 +116,12 @@ footer .wrapper::after{
     font-size: 22px;
 }
 
-.company-flutter h2, .company-flutter p {
-    margin-bottom: 20px;
-}
-
-.footer-list li{
-    margin-bottom: 15px;
-    margin-top: 4px;
+.footer-list i{
+    margin-top: 6px;
 }
 
 .footer-list a {
     transition: .5s;
-}
-
-.footer-list i {
-    margin-top: 6px;
 }
 
 .footer-list a:hover {
@@ -143,21 +134,13 @@ footer .wrapper::after{
     display: block;
 }
 
-.articles-footer {
-    width: 80%;
-}
-
-.articles-footer p {
-margin-top: 20px;
-}
-
 .footer-list.footer-article-list span {
     display: block;
     float: none;
 }
 
 .fa-facebook-square, .fa-instagram {
-    font-size: 30px;
+    font-size: 20px;
     margin-right: 10px;
     float: left;
 }
@@ -207,10 +190,10 @@ margin-top: 20px;
 
 #separar{
     border: none;
-    margin: 7%;
-    padding: 5%;
+    margin: 5%;
+    padding: 3%;
     border: 1px solid black;
-    height: 425px;
+    height: 215 px;
     border-radius: 20px;
     background-color: #cdcdc1;
     overflow: hidden;
@@ -284,7 +267,6 @@ margin-top: 20px;
     
     footer {
         background-color: #cdcdc1;
-        padding-top: 5px;
         padding-bottom: 10px;
         border-top: 5px solid #844646;
         width: 100%;
@@ -317,8 +299,9 @@ margin-top: 20px;
         width: 31%;
         padding: 1%;
         float: left;
-        margin-top: 10px;
+        
         margin-right: 50px;
+        font-family: 'Times New Roman', Times, serif;
     }
     
     .footer-box h2{
@@ -340,21 +323,12 @@ margin-top: 20px;
         font-size: 22px;
     }
     
-    .company-flutter h2, .company-flutter p {
-        margin-bottom: 20px;
-    }
-    
-    .footer-list li{
-        margin-bottom: 15px;
-        margin-top: 4px;
+    .footer-list i{
+        margin-top: 6px;
     }
     
     .footer-list a {
         transition: .5s;
-    }
-    
-    .footer-list i {
-        margin-top: 6px;
     }
     
     .footer-list a:hover {
@@ -367,21 +341,13 @@ margin-top: 20px;
         display: block;
     }
     
-    .articles-footer {
-        width: 80%;
-    }
-    
-    .articles-footer p {
-    margin-top: 20px;
-    }
-    
     .footer-list.footer-article-list span {
         display: block;
         float: none;
     }
     
     .fa-facebook-square, .fa-instagram {
-        font-size: 30px;
+        font-size: 20px;
         margin-right: 10px;
         float: left;
     }
