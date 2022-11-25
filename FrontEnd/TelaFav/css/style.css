@@ -10,7 +10,7 @@
         height: 370px;
         border-radius: 20px;
         text-align: center;
-        background-color: #cdcdc1;
+        background-color: #dec1c1;
         overflow: hidden;
         overflow-y: scroll;
     } 
@@ -103,7 +103,7 @@
     }
     
     .form-submit-button {
-        background: #ee071a;
+        background: #b65d5d;
         color: white;
         border-style: outset;
         border-color: #090b0c;
@@ -132,9 +132,9 @@
         padding-bottom: 10px;
         border-top: 5px solid #844646;
         width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+        position: absolute;
+        bottom: 0;
+        left: 0;
     }
     footer h2, footer p, footer a, footer span{
         color: black;
@@ -353,7 +353,7 @@
     }
     
     .form-submit-button {
-        background: #ee071a;
+        background: #b65d5d;
         color: white;
         border-style: outset;
         border-color: #090b0c;
@@ -382,9 +382,9 @@
         padding-bottom: 10px;
         border-top: 5px solid #844646;
         width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+        position: absolute;
+        bottom: 0;
+        left: 0;
        
     }
     footer h2, footer p, footer a, footer span{
