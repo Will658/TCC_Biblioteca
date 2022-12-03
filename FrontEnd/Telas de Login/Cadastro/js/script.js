@@ -10,7 +10,7 @@ function confereSenhaCadastro() {
 }
 
 function cadastroFeito() {
-    var url = 'http://10.0.1.96:2929/gravar-usuario';
+    var url = 'http://192.168.0.109:2929/gravar-usuario';
     var nomeUsuario = document.getElementById('nomeUsuario').value;
     var emailUsuario = document.getElementById('emailUsuario').value;
     var senhaUsuario = document.getElementById('senhaUsuario').value;
@@ -40,3 +40,31 @@ function cadastroFeito() {
     })
     alert("Cadastro feito!");
 }
+
+function Selecao(){
+var select1 = document.getElementById("Hor");
+var selectH = select1.options[select1.selectedIndex].value;
+var opM = document.getElementsByClassName("opM");
+var opT = document.getElementsByClassName("opT");
+var opN = document.getElementsByClassName("opN");
+
+for (let index = 0; index < opM.length, index < opT.length, index <opN.length; index++) {
+    if(selectH == 1){
+        opM[index].style = "display: block";
+        opT[index].style = "display: none";
+        opN[index].style = "display: none";
+    } else if (selectH == 2){
+        opT[index].style = "display: block";
+        opM[index].style = "display: none";
+        opN[index].style = "display: none";
+    } else if (selectH == 3){
+        opN[index].style = "display: block";
+        opM[index].style = "display: none";
+        opT[index].style = "display: none";
+    } else {
+        opM[index].style = "display: none";
+        opT[index].style = "display: none";
+        opN[index].style = "display: none";
+    }   
+}
+};

@@ -33,29 +33,54 @@
             <br><br>
         <div class="linha">
             <label>Selecione a sua Instituição:</label>
-            <select class="select-selected" name="Instituição">
-                <option value="0">Selecione:</option>
+            <select class="select-selected" name="Instituição" required>
+                <option selected disabled>Selecione:</option>
                 <option value="1">ETEC Antônio Furlan</option>
             </select>
             <br>
         </div>
         <br>
-        <div class="linha2">
-            <label>Selecione o seu Curso:</label>
-            <select class="select-selected" name="Curso">
-                <option value="0">Selecione:</option>
-                <option value="1">3° NOVOTEC Informática para Internet</option>
-                <option value="2">3° NOVOTEC Administração</option>
-            </select>
-        </div>
-        <br>
         <div class="linha3">
             <label>Selecione o seu Horário:</label>
-            <select class="select-selected" name="Horário">
-                <option value="0">Selecione:</option>
+            <select class="select-selected" name="Horário" id="Hor" onchange="Selecao()" required>
+                <option selected disabled>Selecione:</option>
                 <option value="1">Manhã</option>
                 <option value="2">Tarde</option>
                 <option value="3">Noite</option>
+            </select>
+        </div>
+        <br>
+        <div class="linha2" >
+            <label>Selecione o seu Curso:</label>
+            <select class="select-selected" name="Curso" id="Cur" required>
+                <option id="NP" selected disabled>Selecione:</option>
+                <option value="1" class="opT">3° NT Informática para Internet</option>
+                <option value="2" class="opT">3° NT Administração</option>
+                <option value="3" class="opM">1° Administração</option>
+                <option value="4" class="opM">2° Administração</option>
+                <option value="5" class="opM">3° Administração</option>
+                <option value="6" class="opM">1° Contabilidade</option>
+                <option value="7" class="opM">2° Contabilidade</option>
+                <option value="8" class="opM">3° Contabilidade</option>
+                <option value="9" class="opM">1° Informática para Internet</option>
+                <option value="10" class="opM">2° Informática para Internet</option>
+                <option value="11" class="opM">3° Informática para Internet</option>
+                <option value="12" class="opT">1° Recursos Humanos</option>
+                <option value="13" class="opT">2° Recursos Humanos</option>
+                <option value="14" class="opT">3° Recursos Humanos</option>
+                <option value="15" class="opT">1° Enfermagem</option>
+                <option value="16" class="opT">2° Enfermagem</option>
+                <option value="17" class="opT">3° Enfermagem</option>
+                <option value="18" class="opT">4° Enfermagem</option>
+                <option value="19" class="opN">1° Desenvolvimento de Sistemas</option>
+                <option value="20" class="opN">2° Desenvolvimento de Sistemas</option>
+                <option value="21" class="opN">3° Desenvolvimento de Sistemas</option>
+                <option value="22" class="opN">1° Recursos Humanos</option>
+                <option value="23" class="opN">2° Recursos Humanos</option>
+                <option value="24" class="opN">3° Recursos Humanos</option>
+                <option value="25" class="opN">1° Segurança do Trabalho</option>
+                <option value="26" class="opN">2° Segurança do Trabalho</option>
+                <option value="27" class="opN">3° Segurança do Trabalho</option>
             </select>
         </div>
         <br>
