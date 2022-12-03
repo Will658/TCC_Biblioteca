@@ -12,7 +12,7 @@ body{
 
 /*configura o header da página*/
 header{
-    background-color: #844646; /*cor do cabeçalho*/
+    background-color: #b85555; /*cor do cabeçalho*/
     overflow: hidden; /*faz com que o cabeçalho preencha todo o espaço*/
     height: 45px;
     border-bottom: 2px solid black;
@@ -69,7 +69,7 @@ h5{
     background-color: #a69b9b;
     color: #f2f2f2;
     padding: 4px 10px;
-    margin-left: 250px;
+    margin-left: 200px;
     font-size: 12px;
     border: none;
     cursor: pointer;
@@ -108,7 +108,6 @@ h5{
     cursor: pointer;
     text-decoration: none;
     border: none;
-    cursor: pointer;
     color: black;
     background-color: #FFFFFF;
 }

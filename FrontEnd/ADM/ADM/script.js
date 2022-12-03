@@ -57,7 +57,7 @@ button.addEventListener("click",function(){
 const corpoTabela = document.getElementById("corpo-tabela")
 function receberDadosUsuario(){
     //
-    const url = 'http://192.168.10.111:2929/listar-usuarios'
+    const url = 'http://192.168.10.114:2929/listar-usuarios'
     console.log(url);
     fetch(url, {
         headers: {
@@ -96,7 +96,7 @@ function receberDadosUsuario(){
 const corpoTabela1 = document.getElementById("corpo-tabela1")
 function receberDadosUsuario1(){
     //
-    const url = 'http://192.168.10.111:2929/listar-livros'
+    const url = 'http://192.168.10.114:2929/listar-livros'
     console.log(url);
     fetch(url, {
         headers: {
@@ -135,7 +135,7 @@ function receberDadosUsuario1(){
 const corpoTabela2 = document.getElementById("corpo-tabela2")
 function receberDadosUsuario2(){
     //
-    const url = 'http://192.168.10.111:2929/listar-adm'
+    const url = 'http://192.168.10.114:2929/listar-adm'
     console.log(url);
     fetch(url, {
         headers: {
