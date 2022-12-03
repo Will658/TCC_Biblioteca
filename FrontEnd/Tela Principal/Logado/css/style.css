@@ -1,9 +1,9 @@
 body{
     background-color: whitesmoke;
     overflow-y:auto;
-    min-width: 315px;
-    max-width: 430px;
-    min-height: auto;
+    display: flex;
+    flex-direction: column;
+
 }
 
 *{
@@ -22,7 +22,7 @@ body{
 }
 
 header{
-    background-color: #844646; 
+    background-color: #b85555; 
     overflow: hidden; 
     height: 40px;
     border-bottom: 2px solid black;
@@ -73,17 +73,14 @@ a {
 
 .container{
     border: none;
-    margin: 16px;
-    margin-left: 25px;
-    margin-right: 25px;
-    padding: 15px;
+    margin: 3%;
+    padding: 5%;
     border: 1px solid black;
-    height: 490px;
     border-radius: 20px;
     text-align: center;
-    background-color: #cdcdc1;
-    overflow: hidden;
-    overflow-y: scroll;
+    background-color: #dec1c1;
+   color: black;
+   height: auto;
 }
 
 .item {
@@ -99,7 +96,7 @@ a {
 }
 
 .bordaA {
-    background-color: #844646;
+    background-color: #b85555;
     border-radius: 20px;
     padding: 5px;
     margin-top: 7px;
@@ -132,7 +129,7 @@ a {
 
 /*Estrutura de categoria*/
 .dropbtn {
-    margin-left: 8px;
+    margin-top: 100px;
     background-color: #a69b9b;
     color: white;
     padding: 8px;
@@ -140,10 +137,12 @@ a {
     border: none;
     cursor: pointer;
     border-radius: 30px;
+    
   }
   
  .dropdown {
     position:absolute;
+    margin-top: auto;
   }
   
   .dropdown-content {
@@ -153,6 +152,7 @@ a {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    
   }
   
   .dropdown-content a {
@@ -175,12 +175,15 @@ a {
  /*Rodapé;footer*/
 
  footer {
-    background-color: #cdcdc1;
+    background-color: #b85555;
+    padding-top: 5px;
     padding-bottom: 10px;
     border-top: 5px solid #844646;
     width: 100%;
+    position: absolute;
     bottom: 0;
     left: 0;
+
 }
 footer h2, footer p, footer a, footer span{
     color: black;
