@@ -143,12 +143,12 @@ footer .wrapper::after{
 }
 
 .company-flutter h2 {
-    margin-top: 10px;
     font-size: 22px;
+    margin-bottom: 10px;
 }
 
 .footer-list i{
-    margin-top: 6px;
+    margin-top: 12px;
 }
 
 .footer-list a {
@@ -179,6 +179,7 @@ footer .wrapper::after{
 .footer-list li span {
     float: left;
     height: 30px;
+    margin-top: 6px;
     line-height: 30px;
 }
 
@@ -358,12 +359,12 @@ footer .wrapper::after{
 }
 
 .company-flutter h2 {
-    margin-top: 10px;
     font-size: 22px;
+    margin-bottom: 10px;
 }
 
 .footer-list i{
-    margin-top: 6px;
+    margin-top: 16px;
 }
 
 .footer-list a {
