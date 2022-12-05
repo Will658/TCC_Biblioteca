@@ -1,30 +1,29 @@
 # TCC_Biblioteca
 
-COMO RODAR O PROJETO BAIXADO 
+## COMO RODAR O PROJETO BAIXADO:
 
-Instalar todas as dependências indicadas pelo package.json, através do terminal.
-### npm install
+### 1. Instalar todas as dependências indicadas pelo package.json, através do terminal 
+#### -> npm install
 
+## SEQUÊNCIA PARA CRIAR O PROJETO
 
-SEQUÊNCIA PARA CRIAR O PROJETO
-Criar o arquivo package
-### npm init
+### 2. Criar o arquivo package
+#### -> npm init
 
-Gerencia as requisições, rotas e URLs, entre outras funcionalidades
-### npm install express
+### 3. Gerencia as requisições, rotas e URLs, entre outras funcionalidades
+#### -> npm install express
 
-Instalar a dependência de forma global, -g, caso nunca tenha instalado. Instale-o através do prompt de comando
-da máquina e reinicie-a.
-### npm install -g nodemon
+### 4. Instalar a dependência de forma global, -g, caso nunca tenha instalado. Instale-o através do prompt de comando da máquina e reinicie-a.
+#### -> npm install -g nodemon
 
-Instalar a dependência como desenvolvedor para reiniciar sempre que houver alteração no código-fonte.
-### npm install --save-dev nodemon
+### 5. Instalar a dependência como desenvolvedor para reiniciar sempre que houver alteração no código-fonte.
+#### -> npm install --save-dev nodemon
 
-Rodar o projeto usando o nodemon
-### nodemon app.js
+### 6. Rodar o projeto usando o nodemon
+#### -> nodemon app.js
 
-Instalar o módulo para criptografar a senha
-### npm install --save bcryptjs
+### 7. Instalar o módulo para criptografar a senha
+#### -> npm install --save bcryptjs
 
-Instalar a dependência para JWT
-### npm install --save jsonwebtoken
+### 8. Instalar a dependência para JWT
+#### -> npm install --save jsonwebtoken
