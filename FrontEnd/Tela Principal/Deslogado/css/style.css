@@ -1,9 +1,8 @@
-
-
+@media screen and (max-width: 850px) and (min-width: 310px) and (max-height:1700px) and (min-height:630px){
 
     body{
         background-color: whitesmoke;
-        overflow-y:auto;
+        overflow-y: auto;
         display: flex;
         flex-direction: column;
     }
@@ -82,8 +81,7 @@
         border-radius: 20px;
         text-align: center;
         background-color: #dec1c1;
-       color: black;
-
+        color: black;
     }
     
     .item {
@@ -92,7 +90,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
-    }
+        }
     
     .container::-webkit-scrollbar{
         display: none;
@@ -279,11 +277,6 @@
         margin-left: 10px;
         font-family: 'Times New Roman', Times, serif;
     }
+
     
-    #header {
-        margin: 0 auto;  
-        width: 350px; 
-        align-items: center; 
-        padding-top: 30px; 
-    }
-    
+}
