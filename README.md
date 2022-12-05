@@ -1,6 +1,7 @@
 # TCC_Biblioteca
 
-COMO RODAR O PROJETO BAIXADO
+COMO RODAR O PROJETO BAIXADO 
+
 Instalar todas as dependências indicadas pelo package.json, através do terminal.
 ### npm install
 
