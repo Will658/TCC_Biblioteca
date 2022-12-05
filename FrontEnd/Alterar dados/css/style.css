@@ -4,7 +4,7 @@
 .Dados {                                                                                         
     background-color: #dec1c1;
     padding: 5%;
-    margin: 7%;
+    margin: 5%;
     border-radius: 20px;
     color:black;
     border: 1px solid black; 
@@ -94,7 +94,6 @@ footer {
     padding-bottom: 10px;
     border-top: 5px solid #b85555;
     width: 100%;
-    position: absolute;
     bottom: 0;
     left: 0;
 }
@@ -310,7 +309,6 @@ footer {
     padding-bottom: 10px;
     border-top: 5px solid #b85555;
     width: 100%;
-    position: absolute;
     bottom: 0;
     left: 0;
 }
