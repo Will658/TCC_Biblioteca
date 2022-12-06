@@ -168,6 +168,10 @@ button:hover{
    margin-left: 10px;
 }
 
+.opM, .opT, .opN{
+   display: none;
+}
+
 }
 @media screen and (min-width:850px) and (min-height: 630px){
    body{
@@ -336,4 +340,9 @@ button:hover{
       width: 40%;
       margin-left: 10px;
   }
+
+  .opM, .opT, .opN{
+   display: none;
+}
+
 }
