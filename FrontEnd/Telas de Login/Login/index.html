@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,18 +17,18 @@
     <div class="search">
         <form action="#">
             <button>
-                <a href="../../Tela Principal/Deslogado/home.html" class="fa fa-home" id="home" style="font-size: 14px;"></a>
+                <a href="../../Tela Principal/Deslogado/index.html" class="fa fa-home" id="home" style="font-size: 14px;"></a>
             </button>
         </form>
     </div>
-    <form name="Login" action="" onsubmit="loginRealizado()" id="preenchimento" accept-charset="UTF-8">
+    <form name="Login" action="" id="preenchimento" accept-charset="UTF-8">
         <h1>LOGIN</h1>
         <h2>Insira seus dados para acessar seu perfil</h2>
         <input type="email" maxlength="40" required placeholder="E-mail:" id="emailUsuario">
         <br><br>
         <input type="password" maxlength="20" required placeholder="Senha:" id="senhaUsuario">
         <br><br>
-        <input type="submit" id="entrar" value="Logar">
+        <input type="submit" id="entrar" value="Logar" onclick="loginRealizado()">
         <p>Ainda não possui um login? <a href="../Cadastro/index.html"> 
             Cadastre-se! </a> </p>
         <p><a href="../Redefinir d/index.html"> Esqueceu sua senha? </a> </p>

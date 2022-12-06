@@ -25,7 +25,7 @@ body{
 
 /*configura o header da página*/
 header{
-   background-color: #844646; /*cor do cabeçalho*/
+   background-color: #b85555; /*cor do cabeçalho*/
    overflow: hidden; /*faz com que o cabeçalho preencha todo o espaço*/
    height: 40px;
    border-bottom: 2px solid black;
@@ -59,14 +59,15 @@ header{
 
 #preenchimento{
    background-color: #DEC1C1;
-   margin: 3%;
    padding: 5%;
+   margin-left: 5%;
+   margin-right: 5%;
    border: 1px solid black;
    border-radius: 20px;
    color:black;
    height: auto;
- 
 }
+
 
 #preenchimento select{
    border-radius: 10px;
@@ -103,7 +104,7 @@ input{
 }
 
 #cadastrar{
-   background-color: #864464;
+   background-color: #844646;
    border: none;
    padding: 12px;
    width: 100px;
@@ -111,12 +112,12 @@ input{
    color:aliceblue;
    font-size: medium;
    font-weight: bold;
-   margin-left: 60%;
+   float: right;
+   margin-right: 8px;
    cursor: pointer;
 }
 
 button:hover{
-   background-color:blue;
    cursor: pointer;
 }
 
@@ -229,7 +230,7 @@ button:hover{
   } 
    
   #preenchimento{
-      background-color: #E3D8D8;
+      background-color: #DEC1C1;
       margin: 3%;
       padding: 2%;
       margin-left: 35%;
@@ -276,20 +277,20 @@ button:hover{
   }
   
   #cadastrar{
-      background-color: #844646;
-      border: none;
-      padding: 12px;
-      width: 100px;
-      border-radius: 10px;
-      color:aliceblue;
-      font-size: medium;
-      font-weight: bold;
-      margin-left: 60%;
-      cursor: pointer;
-  }
+   background-color: #844646;
+   border: none;
+   padding: 12px;
+   width: 100px;
+   border-radius: 10px;
+   color:aliceblue;
+   font-size: medium;
+   font-weight: bold;
+   float: right;
+   margin-right: 8px;
+   cursor: pointer;
+}
   
   button:hover{
-      background-color:blue;
       cursor: pointer;
   }
   
