@@ -361,7 +361,9 @@
     
     .container{
         border: none;
-        margin: 3%;
+        margin: 1%;
+        margin-left: 3%;
+        margin-right: 3%;
         padding: 2%;
         border: 1px solid black;
         border-radius: 20px;

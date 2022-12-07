@@ -73,10 +73,16 @@ header{
     margin-bottom: 20px;
     padding-bottom: 20px;
     border: 1px solid black;
-    height: auto;
+    height: 340px;
     border-radius: 20px;
     text-align: center;
-    background-color: #cdcdc1;
+    background-color: #dec1c1;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.item::-webkit-scrollbar{
+    display: none;
 }
 
 #informação{
@@ -99,7 +105,7 @@ header{
 }
 
 #informação button{
-    background-color: #844646;
+    background-color: #b85555;
     color: #f2f2f2;
     padding: 4px 10px;
     width: 180px;
@@ -113,7 +119,7 @@ header{
 } 
 
 #addcarrinho, #Favoritar{
-    color: black;
+    color: white;
 }
 
 #informação p{
@@ -146,7 +152,7 @@ header{
 footer {
     background-color: #cdcdc1;
     padding-bottom: 10px;
-    border-top: 5px solid #844646;
+    border-top: 5px solid #b85555;
     width: 100%;
     position: absolute;
     bottom: 0;
@@ -197,12 +203,12 @@ footer .wrapper::after{
 }
 
 .company-flutter h2 {
-    margin-top: 10px;
     font-size: 22px;
+    margin-bottom: 10px;
 }
 
 .footer-list i{
-    margin-top: 6px;
+    margin-top: 16px;
 }
 
 .footer-list a {
@@ -236,6 +242,10 @@ footer .wrapper::after{
     line-height: 30px;
 }
 
+span{
+    margin-top: 10px;
+}
+
 .footer-bottom {
     border-top: 1px solid #b2b2b2;
 }
@@ -263,7 +273,7 @@ a {
                 </div>
             </div>*/
 }
-@media screen and (max-width: 850px){
+@media screen and (min-width:850px) and (min-height: 630px){
     
     body{
         background-color: whitesmoke;
@@ -332,17 +342,20 @@ a {
     } 
     
     .item{
-        margin: 7px;
-        margin-top: 15px;
-        margin-left: 25px;
-        margin-right: 25px;
-        margin-bottom: 20px;
-        padding-bottom: 20px;
+        margin-left: 25%;
+        margin-right: 25%;
+        padding: 1%;
         border: 1px solid black;
-        height: auto;
+        height: 370px;
         border-radius: 20px;
         text-align: center;
         background-color: #dec1c1;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+    
+    .item::-webkit-scrollbar{
+        display: none;
     }
     
     #informação{
@@ -353,7 +366,7 @@ a {
         padding-bottom: 8px;
         border-radius: 20px;
         height: auto; 
-        background-color: rgb(255, 255, 255);
+        background-color: whitesmoke;
         font-size: 12px; 
     }
     
@@ -379,7 +392,7 @@ a {
     } 
     
     #addcarrinho, #Favoritar{
-        color: black;
+        color: white;
     }
     
     #informação p{
@@ -412,7 +425,7 @@ a {
     footer {
         background-color: #cdcdc1;
         padding-bottom: 10px;
-        border-top: 5px solid #844646;
+        border-top: 5px solid #b85555;
         width: 100%;
         position: absolute;
         bottom: 0;
@@ -463,12 +476,12 @@ a {
     }
     
     .company-flutter h2 {
-        margin-top: 10px;
         font-size: 22px;
+        margin-bottom: 10px;
     }
     
     .footer-list i{
-        margin-top: 6px;
+        margin-top: 16px;
     }
     
     .footer-list a {
@@ -500,6 +513,10 @@ a {
         float: left;
         height: 30px;
         line-height: 30px;
+    }
+    
+    span{
+        margin-top: 10px;
     }
     
     .footer-bottom {
