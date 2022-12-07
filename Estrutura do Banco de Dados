@@ -1,0 +1,98 @@
+CREATE DATABASE Portal_dos_Livros;
+USE Portal_dos_Livros;
+
+CREATE TABLE Administradores (
+	idAdm INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+	nomeAdm VARCHAR (50) NOT NULL,
+	emailAdm VARCHAR (40) NOT NULL,
+	telAdm INT (11) NOT NULL,
+	idInst INT NOT NULL,
+	CONSTRAINT FK_adm_inst FOREIGN KEY (idInst) REFERENCES Instituições (idInst)
+);
+
+CREATE TABLE Editoras(
+	idEditora INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+	nomeEditora VARCHAR (30) NOT NULL,
+	siteEditora VARCHAR (2048),
+	endEditora VARCHAR (60) NOT NULL,
+	telEditora INT (11) NOT NULL
+);
+
+CREATE TABLE Gêneros (
+	idGenero INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+	nomeGenero VARCHAR (30) NOT NULL
+); 
+
+CREATE TABLE Autores (
+	idAutor INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+	nomeAutor VARCHAR (50) NOT NULL
+);
+
+CREATE TABLE Instituições (
+	idInst INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+	nomeInst VARCHAR (90) NOT NULL,
+	telInst INT (11) NOT NULL,
+	endInst VARCHAR (100) NOT NULL
+);
+
+CREATE TABLE Horários (
+	idHorario INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+	nomeHorario VARCHAR (15) NOT NULL
+);
+
+CREATE TABLE Cursos (
+	idCurso INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+	nomeCurso VARCHAR (80) NOT NULL,
+	idInst INT NOT NULL,
+	idHorario INT NOT NULL,
+	CONSTRAINT FK_curso_inst FOREIGN KEY (idInst) REFERENCES Instituições (idInst),
+	CONSTRAINT FK_curso_horario FOREIGN KEY (idHorario) REFERENCES Horários (idHorario)
+);
+
+CREATE TABLE Livros(
+	idLivro INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+	tituloLivro VARCHAR(60) NOT NULL,
+	dataPublicacao DATE,
+	qtdLivro INT NOT NULL, 
+	idEditora INT NOT NULL,
+	idGenero INT NOT NULL,
+	idAutor INT NOT NULL,
+	CONSTRAINT FK_livro_editora FOREIGN KEY (idEditora) REFERENCES Editoras (idEditora),
+	CONSTRAINT FK_livro_genero FOREIGN KEY (idGenero) REFERENCES Gêneros (idGenero),
+	CONSTRAINT FK_livro_autor FOREIGN KEY (idAutor) REFERENCES Autores (idAutor)
+);
+
+
+CREATE TABLE usuarios (
+	idUsuario INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+	nomeUsuario VARCHAR(40) NOT NULL, 
+	emailUsuario VARCHAR(40) NOT NULL,
+	senhaUsuario VARCHAR (30) NOT NULL,
+	idInst INT NOT NULL,
+	idCurso INT NOT NULL,
+	idHorario INT NOT NULL,
+	CONSTRAINT FK_usuario_inst FOREIGN KEY (idInst) REFERENCES instituicoes (idInst),
+	CONSTRAINT FK_usuario_curso FOREIGN KEY (idCurso) REFERENCES cursos (idCurso),
+	CONSTRAINT FK_usuario_horario FOREIGN KEY (idHorario) REFERENCES horarios (idHorario)
+);
+
+CREATE TABLE locacao (
+	idLocacao INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+	idUsuario INT NOT NULL,
+	idLivro INT NOT NULL,
+	dataLocacao DATE,
+	dataEntrega DATE,
+	CONSTRAINT FK_locacao_usuario FOREIGN KEY (idUsuario) REFERENCES usuarios (idUsuario),
+	CONSTRAINT FK_locacao_livro FOREIGN KEY (idLivro) REFERENCES livros (idLivro)
+);
+
+DESCRIBE Livros;
+DESCRIBE Usuários;
+DESCRIBE Administradores;
+DESCRIBE Locação;
+DESCRIBE Editoras;
+DESCRIBE Gêneros;
+DESCRIBE Autores;
+DESCRIBE Instituições;
+DESCRIBE Cursos;
+DESCRIBE Horários;
