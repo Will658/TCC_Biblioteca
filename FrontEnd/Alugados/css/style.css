@@ -28,7 +28,22 @@
      }
 
     .card-body{
-        margin-bottom: 20px;
+        margin-bottom: 60px;
+
+    }
+
+    #C1 p{
+        background-color: rgb(38, 184, 38);
+        border: 1px solid black;
+        border-radius: 20px;
+        color: rgb(255, 255, 255);
+    }
+
+    #C3 p{
+        background-color: rgb(38, 184, 38);
+        border: 1px solid black;
+        border-radius: 20px;
+        color: rgb(255, 255, 255);
     }
 
     .card-body h1{
@@ -283,7 +298,19 @@
         justify-content: space-around;
      }
 
-     
+     #C1 p{
+        background-color: rgb(38, 184, 38);
+        border: 1px solid black;
+        border-radius: 20px;
+        color: rgb(255, 255, 255);
+    }
+
+    #C3 p{
+        background-color: rgb(38, 184, 38);
+        border: 1px solid black;
+        border-radius: 20px;
+        color: rgb(255, 255, 255);
+    }
 
      
     .card-body a{
