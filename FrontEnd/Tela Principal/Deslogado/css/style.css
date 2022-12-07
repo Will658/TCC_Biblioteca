@@ -177,14 +177,12 @@
     
      footer {
         background-color: #cdcdc1;
-        padding-top: 5px;
         padding-bottom: 10px;
         border-top: 5px solid #b85555;
         width: 100%;
         position: absolute;
         bottom: 0;
         left: 0;
-    
     }
     footer h2, footer p, footer a, footer span{
         color: black;
@@ -231,12 +229,12 @@
     }
     
     .company-flutter h2 {
-        margin-top: 10px;
         font-size: 22px;
+        margin-bottom: 10px;
     }
     
     .footer-list i{
-        margin-top: 6px;
+        margin-top: 16px;
     }
     
     .footer-list a {
@@ -268,6 +266,10 @@
         float: left;
         height: 30px;
         line-height: 30px;
+    }
+
+    span{
+        margin-top: 10px;
     }
     
     .footer-bottom {
@@ -462,14 +464,12 @@
     
      footer {
         background-color: #cdcdc1;
-        padding-top: 5px;
         padding-bottom: 10px;
         border-top: 5px solid #b85555;
         width: 100%;
         position: absolute;
         bottom: 0;
         left: 0;
-    
     }
     footer h2, footer p, footer a, footer span{
         color: black;
@@ -516,12 +516,12 @@
     }
     
     .company-flutter h2 {
-        margin-top: 10px;
         font-size: 22px;
+        margin-bottom: 10px;
     }
     
     .footer-list i{
-        margin-top: 6px;
+        margin-top: 16px;
     }
     
     .footer-list a {
@@ -553,6 +553,10 @@
         float: left;
         height: 30px;
         line-height: 30px;
+    }
+
+    span{
+        margin-top: 10px;
     }
     
     .footer-bottom {

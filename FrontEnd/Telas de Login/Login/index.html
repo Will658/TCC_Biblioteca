@@ -2,7 +2,6 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -21,14 +20,14 @@
             </button>
         </form>
     </div>
-    <form name="Login" action="" id="preenchimento" accept-charset="UTF-8">
+    <form name="Login" action="" onsubmit="loginRealizado(); return false" id="preenchimento" accept-charset="UTF-8">
         <h1>LOGIN</h1>
         <h2>Insira seus dados para acessar seu perfil</h2>
-        <input type="email" maxlength="40" required placeholder="E-mail:" id="emailUsuario">
+        <input type="email" maxlength="40" required placeholder="E-mail:" id="emailUsuario" class="inputs required">
         <br><br>
-        <input type="password" maxlength="20" required placeholder="Senha:" id="senhaUsuario">
+        <input type="password" maxlength="20" required placeholder="Senha:" id="senhaUsuario" class="inputs required">
         <br><br>
-        <input type="submit" id="entrar" value="Logar" onclick="loginRealizado()">
+        <input type="submit" id="entrar" value="Logar">
         <p>Ainda não possui um login? <a href="../Cadastro/index.html"> 
             Cadastre-se! </a> </p>
         <p><a href="../Redefinir d/index.html"> Esqueceu sua senha? </a> </p>
@@ -38,6 +37,6 @@
             </div>
         </div>   
     </form>
-    <script src="./js/script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
