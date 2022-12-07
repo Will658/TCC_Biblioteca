@@ -57,20 +57,27 @@ header{
 
 h3{
     text-align: center;
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
 }
 
 h4{
     text-align: center;
-    font-size: 10px;
+    font-size: 14px;
+    text-decoration: underline;
 }
 
 .container{
     display: flex;
     flex-direction: column;
-    margin-left: 10%;
-    margin-right: 10%;
-    height: 200px;
+    background-color: #cdcdc1;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+    padding: 1%;
+    border-radius: 20px;
+    border: 1px solid black;
+    height: 255px;
     overflow: hidden;
     overflow-y: scroll;
 }
@@ -91,6 +98,7 @@ h4{
     background-color: #dec1c1;
     margin-bottom: 10px;
     border-radius: 20px;
+    border: 1px solid black;
 }
 
 .child p{
@@ -104,7 +112,6 @@ footer {
     padding-bottom: 10px;
     border-top: 5px solid #b85555;
     width: 100%;
-    position: absolute;
     bottom: 0;
     left: 0;
 }
@@ -268,12 +275,14 @@ header{
 
 h3{
     text-align: center;
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
 }
 
 h4{
     text-align: center;
-    font-size: 10px;
+    font-size: 14px;
+    text-decoration: underline;
 }
 
 .container{
@@ -282,6 +291,9 @@ h4{
     background-color: #cdcdc1;
     margin-left: 10%;
     margin-right: 10%;
+    padding: 1%;
+    border-radius: 20px;
+    border: 1px solid black;
     height: 260px;
     overflow: hidden;
     overflow-y: scroll;
@@ -303,6 +315,7 @@ h4{
     background-color: #dec1c1;
     margin-bottom: 10px;
     border-radius: 20px;
+    border: 1px solid black;
 }
 
 .child p{
@@ -365,12 +378,12 @@ footer .wrapper::after{
 }
 
 .company-flutter h2 {
-    margin-top: 10px;
     font-size: 22px;
+    margin-bottom: 10px;
 }
 
 .footer-list i{
-    margin-top: 6px;
+    margin-top: 8px;
 }
 
 .footer-list a {
@@ -402,6 +415,10 @@ footer .wrapper::after{
     float: left;
     height: 30px;
     line-height: 30px;
+}
+
+span{
+    margin-top: 2px;
 }
 
 .footer-bottom {

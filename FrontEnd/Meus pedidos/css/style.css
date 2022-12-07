@@ -270,13 +270,11 @@ header{
     background-color: #a69b9b;
     color: #f2f2f2;
     padding: 4px 10px;
-    margin-left: 8px;
-    font-size: 20px;
+    margin-left: 2px;
+    font-size: 12px;
     border: none;
     cursor: pointer;
     border-radius:25px;
-    height: 35px;
-    width: 100px;
 } 
 
 /*footer*/
