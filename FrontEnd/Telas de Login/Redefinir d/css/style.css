@@ -100,7 +100,6 @@ input{
 }
 
 button:hover{
-   background-color:blue;
    cursor: pointer;
 }
 
@@ -186,7 +185,7 @@ button:hover{
    .redef-senha{
       background-color: #E3D8D8;
       margin: 3%;
-      padding: 5%;
+      padding: 2%;
       margin-left: 35%;
       margin-right: 35%;
       border: 1px solid black;
@@ -228,7 +227,6 @@ button:hover{
    }
    
    button:hover{
-      background-color:blue;
       cursor: pointer;
    }
    

@@ -81,11 +81,14 @@ header{
     background-color: #a69b9b;
     color: #f2f2f2;
     padding: 4px 10px;
-    margin-left: 2px;
+    margin-right: 8px;
+    margin-left: 8px;
     font-size: 12px;
     border: none;
     cursor: pointer;
     border-radius:25px;
+    text-decoration: none;
+    float: right;
 }
 
 /*footer*/
@@ -274,11 +277,14 @@ header{
     background-color: #a69b9b;
     color: #f2f2f2;
     padding: 4px 10px;
-    margin-left: 2px;
+    margin-right: 8px;
+    margin-left: 8px;
     font-size: 12px;
     border: none;
     cursor: pointer;
     border-radius:25px;
+    text-decoration: none;
+    float: right;
 } 
 
 /*footer*/
