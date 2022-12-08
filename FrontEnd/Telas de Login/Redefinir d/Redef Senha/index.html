@@ -25,16 +25,17 @@
         </form>
     </div> 
     <div class="redefinir">
-        <h1> Redefinir Senha </h1>
-        <p> Defina sua nova senha: </p>
-        <input type="text" placeholder="Senha">
+        <form action="" onsubmit="VerfSenha(); return false">
+            <h1 style="margin-bottom: 30px; text-decoration: underline; text-align: center;"> Redefinir Senha </h1>
+        <p style="text-align: center; font-size: 18px;"> Defina sua nova senha: </p>
+        <input type="text" placeholder="Nova senha" required class="inputs required" name="senha">
         <br><br>
 
-        <p> Confirme sua senha: </p>
-        <input type="text" placeholder="Senha">
+        <p style="text-align: center; font-size: 18px;"> Confirme sua senha: </p>
+        <input type="text" placeholder="Insira novamente sua nova senha" name="confirma" required class="inputs required">
         <br><br>
         
-        <button  class="form-submit-button">Redefinir</button>
+        <input type="submit" value="Redefinir" id="Red" class="form-submit-button" style="float: right;">
         <br><br>
         
         <div class="footer-bottom">
@@ -42,6 +43,8 @@
                 <p> PortalDosLivros - 2022 </p>
             </div>
         </div>
+        </form>
     </div>
+    <script src="./js/script.js"></script>
 </body>
 </html>
