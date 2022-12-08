@@ -2,12 +2,6 @@ function loginRealizado() {
     //var url = 'http://192.168.0.109:2929/login2';
     var emailUsuario = document.getElementById('emailUsuario').value;
     var senhaUsuario = document.getElementById('senhaUsuario').value;
-
-    var adm1 = emailUsuario = 'williamtoledo658@gmail.com', senhaUsuario = "transformersgodofwar3";
-    var adm2 = emailUsuario = 'eduardo7854964@gmail.com', senhaUsuario = "palmeirensedefe";
-    var adm3 = emailUsuario = 'brunonogueiracamilo@gmail.com', senhaUsuario = "fazoL13";
-    var adm4 = emailUsuario = 'fs5946088@gmail.com', senhaUsuario = "donadomorro";
-    var adm5 = emailUsuario = 'silasromao54@gmail.com', senhaUsuario = "silasrabao2022";
     
     //var Dados ={
       //  emailUsuario,
@@ -34,8 +28,6 @@ function loginRealizado() {
         location.href = "../../Tela Principal/Logado/home.html";
     } else if (emailUsuario === "silasromao54@gmail.com" && senhaUsuario === "silasrabao2022"){
         location.href = "../../Tela Principal/Logado/home.html";
-    } else if (emailUsuario === "williamtoledo658@gmail.com" && senhaUsuario === "transformersgodofwar3"){
-        location.href = "../../ADM/ADM/index.html"
     } else {
         alert("não deu certo");
     }
