@@ -12,9 +12,9 @@ body{
 
 /*configura o header da página*/
 header{
-    background-color: #844646; /*cor do cabeçalho*/
+    background-color: #b85555; /*cor do cabeçalho*/
     overflow: hidden; /*faz com que o cabeçalho preencha todo o espaço*/
-    height: 45px;
+    height: 50px;
     border-bottom: 2px solid black;
 }
 
@@ -24,6 +24,7 @@ header{
     font-size: 25px;
     font-style: oblique;
     font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
 .container {
@@ -47,6 +48,7 @@ header{
     font-family: 'Times New Roman', Times, serif;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 .teste2{
@@ -69,7 +71,6 @@ h5{
     background-color: #a69b9b;
     color: #f2f2f2;
     padding: 4px 10px;
-    margin-left: 250px;
     font-size: 12px;
     border: none;
     cursor: pointer;
@@ -156,7 +157,7 @@ button{
 
 .alinhar{
     display: flex;
-    width: 900px;
+    width: 840px;
     flex-direction: column;
     align-items: center;
     padding-left: 275px;

@@ -34,6 +34,8 @@ function loginRealizado() {
         location.href = "../../Tela Principal/Logado/home.html";
     } else if (emailUsuario === "silasromao54@gmail.com" && senhaUsuario === "silasrabao2022"){
         location.href = "../../Tela Principal/Logado/home.html";
+    } else if (emailUsuario === "williamtoledo658@gmail.com" && senhaUsuario === "transformersgodofwar3"){
+        location.href = "../../ADM/ADM/index.html"
     } else {
         alert("não deu certo");
     }
